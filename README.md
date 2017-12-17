@@ -53,7 +53,7 @@ In addition to the query, you may wish to change one or more of the following co
  - ```pgamon.warningThreshold```: Query duration, in minutes, that controls when a row is turned orange.
  - ```pgamon.dangerThreshold```: Queyr duration, in minutes, that controls when a row is turned red. 
 
-There are other configs. You can read them in ```application.properties```. The default port is 8090 so that it does not interfer with other application servers.
+There are other configs. You can read them in ```application.properties```. The default port is 8090 so that it does not conflict with another application server.
 
 ## Notes
 

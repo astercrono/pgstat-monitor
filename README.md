@@ -49,12 +49,12 @@ If you wish to make column changes, three pieces need to be updated:
  - The dataacess object's row mapper. Refer to ```DefaultPGStatDao.java```
 
 In addition to the query, you may wish to change one or more of the following configs:
- - ```pgamon.refreshInterval```: Minutes between each page refresh.
+ - ```pgamon.refreshInterval```: Seconds between each page refresh.
  - ```pgamon.warningThreshold```: Query duration, in minutes, that controls when a row is turned orange.
- - ```pgamon.dangerThreshold```: Queyr duration, in minutes, that controls when a row is turned red. 
+ - ```pgamon.dangerThreshold```: Query duration, in minutes, that controls when a row is turned red. 
 
 There are other configs. You can read them in ```application.properties```. The default port is 8090 so that it does not conflict with another application server.
 
 ## Notes
 
-In postgresql 9.6, the waiting column was removed and replaced with ```wait_event_type``` and ```wait_event```. For this reason, both the model class and template are setup with a single ```wait``` column. The default query concatenates the new columns into this single field. 
+In postgresql 9.6, the ```waiting``` column was removed and replaced with ```wait_event_type``` and ```wait_event```. For this reason, both the model class and template are setup with a single ```wait``` column. The default query concatenates the new columns into this single field. 

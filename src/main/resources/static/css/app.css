@@ -1,0 +1,15 @@
+.header {
+	text-align: center;
+}
+
+.dangerRow > td {
+	background-color: rgb(238, 97, 97);
+	color: rgb(27, 27, 27);
+	border-bottom: 1px solid rgb(219, 44, 44);
+}
+
+.warningRow > td {
+	background-color: rgb(223, 175, 71);
+	color: rgb(27, 27, 27);
+	border-bottom: 1px solid rgb(212, 162, 53);
+}

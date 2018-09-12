@@ -2,7 +2,7 @@
 
 ## Overview
 
-A simple web page that displays non-idle postgresql connections. Autovacuum processes are also not included.
+A basic web page that displays non-idle postgresql connections. Autovacuum processes are also not included.
 
 ## Prerequisites
 

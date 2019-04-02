@@ -13,7 +13,7 @@ A basic web page that displays non-idle postgresql connections. Autovacuum proce
 
 Clone repository: 
 ```
-$ git clone https://github.com/astercrono/pgstat-monitor
+$ git clone https://github.com/cronkib/pgstat-monitor
 ```
 
 Change directory: 
